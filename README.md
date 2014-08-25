@@ -17,3 +17,10 @@ Start a new Django project (or clone this repository)
 * mkdir begin_django
 * cd begin_django
 * django-admin.py startproject myproject
+
+Run the local server
+--------------------
+
+* cd begin_django/myproject
+* python manage.py runserver
+* Go to 127.0.0.1:8000 in a browser window
