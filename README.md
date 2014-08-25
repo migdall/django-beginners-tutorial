@@ -5,10 +5,11 @@ To help others who will go before me. Specifically, making a Django project easi
 
 Live Idea Map: https://litpen.com/idea/jriMzbo9ij8/
 
+* Install django 1.6 (via pip)
+
 Basic Installation (or clone this repository)
 -----
 
-* Install django 1.6 (via pip)
 * mkdir begin_django
 * cd begin_django
 * django-admin.py startproject myproject
