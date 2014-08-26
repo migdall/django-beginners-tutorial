@@ -5,5 +5,8 @@
 
 <body>
     <div>Hello, World</div>
+    {% for note in notes %}
+    <p>{{ note.content }}</p>
+    {% endfor %}
 </body>
 </html>
