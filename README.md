@@ -24,3 +24,9 @@ Run the local server
 * cd begin_django/myproject
 * python manage.py runserver
 * Go to 127.0.0.1:8000 in a browser window
+
+Create the initial tables for the database (sqlite)
+---------------------------------------------------
+
+* cd begin_django/myproject
+* python manage.py syncdb
