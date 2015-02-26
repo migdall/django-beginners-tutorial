@@ -9,7 +9,7 @@ Basic Installation
 ------------------
 
 * Install pip: http://pip.readthedocs.org/en/latest/installing.html
-* pip install django==1.6 (use sudo to install globally)
+* pip install Django==1.6.10 (use sudo to install globally)
 
 Start a new Django project (or clone this repository)
 -----------------------------------------------------
