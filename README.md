@@ -5,10 +5,22 @@ To help others who will go before me. Specifically, making a Django project easi
 
 Django 1.6 Overview: https://docs.djangoproject.com/en/1.6/intro/overview/
 
+Have Python 2.7+ installed on your computer.
+
 Basic Installation
 ------------------
 
-* Install pip: http://pip.readthedocs.org/en/latest/installing.html
+##### Install virtualenv locally
+* mkdir ~/src
+* wget https://pypi.python.org/packages/source/v/virtualenv/virtualenv-12.0.7.tar.gz#md5=e08796f79d112f3bfa6653cc10840114 --no-check-certificate
+* tar -zxvf virtualenv-12.0.7.tar.gz
+* cd virtualenv-12.0.7/
+* python setup.py install
+
+##### Install pip
+* http://pip.readthedocs.org/en/latest/installing.html
+
+##### Use pip to install Django
 * pip install Django==1.6.10 (use sudo to install globally)
 
 Start a new Django project (or clone this repository)
