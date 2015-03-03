@@ -20,6 +20,13 @@ Basic Installation
 ##### Install pip
 * http://pip.readthedocs.org/en/latest/installing.html
 
+##### Install pip locally
+* cd ~/src, use mkdir ~/src if you do not have the ~/src directory
+* wget https://pypi.python.org/packages/source/p/pip/pip-6.0.8.tar.gz#md5=2332e6f97e75ded3bddde0ced01dbda3 --no-check-certificate
+* tar -zxvf pip-6.0.8.tar.gz
+* cd pip-6.0.8/
+* python setup.py intall
+
 ##### Use pip to install Django
 * pip install Django==1.6.10 (use sudo to install globally)
 
