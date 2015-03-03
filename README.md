@@ -1,7 +1,11 @@
 django-beginners-tutorial
 =========================
 
-To help others who will go before me. Specifically, making a Django project easier to get started with.
+##### Purpose
+
+To help those who will learn Django in the future and as a resource for what I think is most important when starting a new Django project.
+
+##### Start
 
 Django 1.6 Overview: https://docs.djangoproject.com/en/1.6/intro/overview/
 
