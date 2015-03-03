@@ -29,6 +29,8 @@ Basic Installation
 
 Installing virtualenv and pip locally is good if you do not have sudo access, want to try different versions of the software, and for other reasons. This installation is also helpful when you want to try another version of Python. The steps listed for installing virtualenv and pip locally are very similar to the steps you might take in installing a local version of Python.
 
+The foundation for the local installation steps of virtualenv and pip can be found in this StackOverflow answer located at this address http://stackoverflow.com/questions/5506110/is-it-possible-to-install-another-version-of-python-to-virtualenv.
+
 ##### Use pip to install Django
 * pip install Django==1.6.10 (use sudo to install globally)
 
