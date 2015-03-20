@@ -1,4 +1,4 @@
-django-beginners-tutorial
+Django Beginners Tutorial
 =========================
 
 ##### Purpose
