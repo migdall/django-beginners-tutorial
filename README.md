@@ -35,25 +35,28 @@ Installing virtualenv and pip locally is good if you do not have sudo access, wa
 
 The foundation for the local installation steps of virtualenv and pip can be found in this StackOverflow answer located at this address http://stackoverflow.com/questions/5506110/is-it-possible-to-install-another-version-of-python-to-virtualenv.
 
-##### Use pip to install Django
-* pip install Django==1.6.10 (use sudo to install globally)
-
-Start a new Django project (or clone this repository)
+Clone this repository
 -----------------------------------------------------
 
-* mkdir begin_django
-* cd begin_django
-* django-admin.py startproject myproject
+* git clone https://github.com/migdall/django-beginners-tutorial.git
 
-Run the local server
---------------------
+Create a virtual environment
+-----------------------------------------------------
 
-* cd begin_django/myproject
-* python manage.py runserver
-* Go to 127.0.0.1:8000 in a browser window
+* cd django-beginners-tutorial/
+* virtualenv env
+* source env/bin/activate
+* pip install Django==1.6.10
 
 Create the initial tables for the database (sqlite)
----------------------------------------------------
+-----------------------------------------------------
 
-* cd begin_django/myproject
+* cd django-beginners-tutorial/myproject/
 * python manage.py syncdb
+
+Run the local server
+-----------------------------------------------------
+
+* cd django-beginners-tutorial/myproject/
+* python manage.py runserver
+* Visit 127.0.0.1:8000 in a browser window
